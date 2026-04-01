@@ -45,7 +45,7 @@ const entries = [
     date: "Late 2025",
     title: "The beetroot paratha dream",
     description:
-      "I was cooking for you.. we both enjoyed making it together." She said "me?!?" He said "rlly wanna cook for u.",
+      `I was cooking for you... we both enjoyed making it together. She said "me?!?" He said "rlly wanna cook for u."`,
     tags: ["dream", "food", "someday"],
     filled: true,
   },
@@ -67,15 +67,16 @@ const entries = [
   },
 ];
 
-const DOT_COL = 44; // px — fixed width for the dot column
-const DOT_SIZE = 16; // px
-const LINE_X = DOT_COL / 2 - 1; // center of dot column minus half line width
+const DOT_COL = 44;
+const DOT_SIZE = 16;
+const LINE_X = DOT_COL / 2 - 1;
 
 export default function Memories() {
   const sectionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const els = document.querySelectorAll<HTMLElement>(".tl-item");
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry, idx) => {
@@ -88,9 +89,11 @@ export default function Memories() {
       },
       { threshold: 0.12 }
     );
+
     els.forEach((el) => observer.observe(el));
+
     return () => observer.disconnect();
-  });
+  }, []);
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-12">
@@ -108,6 +111,7 @@ export default function Memories() {
         >
           Timeline
         </p>
+
         <h1
           style={{
             fontFamily: "'Cormorant Garamond', serif",
@@ -119,6 +123,7 @@ export default function Memories() {
         >
           Our Memories
         </h1>
+
         <p
           style={{
             marginTop: "0.75rem",
@@ -134,7 +139,7 @@ export default function Memories() {
 
       {/* Timeline */}
       <div ref={sectionRef} style={{ position: "relative" }}>
-        {/* Vertical line — sits behind everything, centered in dot column */}
+        {/* Vertical Line */}
         <div
           aria-hidden="true"
           style={{
@@ -161,14 +166,14 @@ export default function Memories() {
                 position: "relative",
               }}
             >
-              {/* Dot column — fixed width so line stays perfectly centred */}
+              {/* Dot */}
               <div
                 style={{
                   flexShrink: 0,
                   width: `${DOT_COL}px`,
                   display: "flex",
                   justifyContent: "center",
-                  paddingTop: "1.4rem", /* align dot with first line of card title */
+                  paddingTop: "1.4rem",
                   zIndex: 1,
                 }}
               >
@@ -184,7 +189,6 @@ export default function Memories() {
                     boxShadow: entry.filled
                       ? "0 0 0 4px hsl(var(--background)), 0 0 0 5px var(--blush)"
                       : "0 0 0 4px hsl(var(--background))",
-                    flexShrink: 0,
                   }}
                   className={!entry.filled ? "tl-dot-animated" : ""}
                 />
@@ -215,6 +219,7 @@ export default function Memories() {
                 >
                   {entry.date}
                 </p>
+
                 <h3
                   style={{
                     fontFamily: "'Cormorant Garamond', serif",
@@ -227,6 +232,7 @@ export default function Memories() {
                 >
                   {entry.title}
                 </h3>
+
                 <p
                   style={{
                     fontFamily: "'DM Sans', sans-serif",
@@ -238,22 +244,6 @@ export default function Memories() {
                 >
                   {entry.description}
                 </p>
-
-                {(entry as { note?: string }).note && (
-                  <blockquote
-                    style={{
-                      marginTop: "0.75rem",
-                      fontFamily: "'Cormorant Garamond', serif",
-                      fontStyle: "italic",
-                      fontSize: "0.95rem",
-                      color: "var(--rose)",
-                      borderLeft: "2px solid var(--blush)",
-                      paddingLeft: "0.75rem",
-                    }}
-                  >
-                    "{(entry as { note?: string }).note}"
-                  </blockquote>
-                )}
 
                 <div
                   style={{
