@@ -51,12 +51,12 @@ function useCountUp(target: number, start: boolean) {
 }
 
 const SIGNALS = [
-  { label: "Send a hug", emoji: "🤗", msg: "Mann sent you a warm hug! ♡" },
-  { label: "Send heart", emoji: "💕", msg: "Mann sent you his heart. ♡" },
-  { label: "Thinking of you", emoji: "🌸", msg: "Mann is thinking of you right now. ♡" },
-  { label: "Cooking for you", emoji: "🍳", msg: "Mann wishes he could cook for you. ♡" },
-  { label: "Smol munch", emoji: "🐱", msg: "Smol munch! mrrp ♡" },
-  { label: "Had a dream of u", emoji: "🌙", msg: "Mann dreamt of you last night. ♡" },
+  { label: "Send a hug", emoji: "(つ≧▽≦)つ", msg: "Mann sent you a warm hug! ♡" },
+  { label: "Send heart", emoji: "♥", msg: "Mann sent you his heart. ♡" },
+  { label: "Thinking of you", emoji: "❁", msg: "Mann is thinking of you right now. ♡" },
+  { label: "Cooking for you", emoji: "(˶˃𐃷˂˶)", msg: "Mann wishes he could cook for you. ♡" },
+  { label: "Smol munch", emoji: "(≧∇≦)", msg: "Smol munch! mrrp ♡" },
+  { label: "Had a dream of u", emoji: "✧･ﾟ: ✧･ﾟ:", msg: "Mann dreamt of you last night. ♡" },
 ];
 
 function Toast({ msg, fading }: { msg: string; fading: boolean }) {
