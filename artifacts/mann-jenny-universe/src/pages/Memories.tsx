@@ -1,11 +1,18 @@
 import { useEffect, useRef } from "react";
 
-const entries = [
+type TimelineEntry = {
+  date: string;
+  title: string;
+  description: string;
+  tags: string[];
+  filled: boolean;
+};
+
+const entries: TimelineEntry[] = [
   {
     date: "May 6, 2025",
     title: "First Hello",
-    description:
-      "One message on Discord. The beginning of everything.",
+    description: "One message on Discord. The beginning of everything.",
     tags: ["beginning", "Discord", "hello"],
     filled: true,
   },
@@ -97,7 +104,6 @@ export default function Memories() {
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-12">
-      {/* Header */}
       <div className="text-center mb-14">
         <p
           style={{
@@ -137,9 +143,7 @@ export default function Memories() {
         </p>
       </div>
 
-      {/* Timeline */}
       <div ref={sectionRef} style={{ position: "relative" }}>
-        {/* Vertical Line */}
         <div
           aria-hidden="true"
           style={{
@@ -166,7 +170,6 @@ export default function Memories() {
                 position: "relative",
               }}
             >
-              {/* Dot */}
               <div
                 style={{
                   flexShrink: 0,
@@ -186,25 +189,18 @@ export default function Memories() {
                       ? "linear-gradient(135deg, var(--rose), var(--deep))"
                       : "transparent",
                     border: entry.filled ? "none" : `2px solid var(--rose)`,
-                    boxShadow: entry.filled
-                      ? "0 0 0 4px hsl(var(--background)), 0 0 0 5px var(--blush)"
-                      : "0 0 0 4px hsl(var(--background))",
                   }}
-                  className={!entry.filled ? "tl-dot-animated" : ""}
                 />
               </div>
 
-              {/* Card */}
               <div
                 className="flex-1"
                 style={{
                   background: "hsl(var(--card) / 0.85)",
                   backdropFilter: "blur(8px)",
-                  WebkitBackdropFilter: "blur(8px)",
                   border: "1px solid var(--blush)",
                   borderRadius: "1rem",
                   padding: "1.25rem 1.4rem",
-                  boxShadow: "0 2px 12px rgba(139, 74, 82, 0.06)",
                 }}
               >
                 <p
@@ -224,10 +220,8 @@ export default function Memories() {
                   style={{
                     fontFamily: "'Cormorant Garamond', serif",
                     fontSize: "1.2rem",
-                    fontWeight: 400,
                     color: "var(--deep)",
                     marginBottom: "0.5rem",
-                    lineHeight: 1.3,
                   }}
                 >
                   {entry.title}
@@ -236,10 +230,8 @@ export default function Memories() {
                 <p
                   style={{
                     fontFamily: "'DM Sans', sans-serif",
-                    fontWeight: 300,
                     fontSize: "0.875rem",
                     lineHeight: 1.75,
-                    color: "hsl(var(--foreground))",
                   }}
                 >
                   {entry.description}
@@ -258,12 +250,10 @@ export default function Memories() {
                       key={tag}
                       style={{
                         background: "hsl(var(--accent) / 0.7)",
-                        color: "var(--deep)",
                         fontSize: "10px",
                         padding: "2px 9px",
                         borderRadius: "999px",
                         fontFamily: "'DM Sans', sans-serif",
-                        letterSpacing: "0.04em",
                       }}
                     >
                       {tag}
