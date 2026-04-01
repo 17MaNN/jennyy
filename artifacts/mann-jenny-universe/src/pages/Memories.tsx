@@ -5,18 +5,17 @@ const entries = [
     date: "May 6, 2025",
     title: "First Hello",
     description:
-      "A question about worms on Discord. Mann paused, answered, and everything changed from that first quiet exchange.",
-    tags: ["beginning", "Discord", "worms"],
+      "One message on Discord. The beginning of everything.",
+    tags: ["beginning", "Discord", "hello"],
     filled: true,
   },
   {
-    date: "May 7–20, 2025",
+    date: "May, 2025",
     title: "First Long Conversations",
     description:
       "Hours stretching past midnight, past reasonable hours, past the point where stopping made sense. A tiny love note from Suna, kept ever since.",
     tags: ["conversations", "love note", "late nights"],
     filled: true,
-    note: "Oiiiiiii! mini love note — Aracely M.",
   },
   {
     date: "June 1, 2025",
@@ -36,17 +35,17 @@ const entries = [
   },
   {
     date: "Summer 2025",
-    title: "The Mornings Poem",
+    title: "Mornings~! — a handmade poem",
     description:
-      "Mann wrote Suna a poem about mornings — about IST and EDT and the grief of distance measured in time zones. A small act of love, maintained.",
+      "I still feel your presence when I close my eyes. May today carry an extra twinkle! — Artsy Suna, ~♡~",
     tags: ["poem", "mornings", "love"],
     filled: true,
   },
   {
     date: "Late 2025",
-    title: "The 2:39 AM Dream",
+    title: "The beetroot paratha dream",
     description:
-      "Mann dreamt of making beetroot parathas for Suna in a kitchen that doesn't exist yet. He told her. She said she wants to try them.",
+      "I was cooking for you.. we both enjoyed making it together." She said "me?!?" He said "rlly wanna cook for u.",
     tags: ["dream", "food", "someday"],
     filled: true,
   },
