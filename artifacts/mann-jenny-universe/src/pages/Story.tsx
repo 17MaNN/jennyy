@@ -3,18 +3,20 @@ import { useEffect } from "react";
 const chapters = [
   {
     number: "Chapter I",
-    title: "A Worm, a Discord, and a Beginning",
-    content: `It started the way all the best things do — unexpectedly. On May 6, 2025, Mann joined a Discord server and found Suna. Not because of grand plans or fate carefully arranged, but because Suna asked a question about worms. A deeply sincere, curious question about whether worms could feel love. And Mann — who was passing by, who almost didn't stop — answered. That question opened a door neither of them knew existed.
-
-They talked. About nothing, about everything. About the strange comfort of a voice you've never heard in person but somehow already know. About what it means to find someone who asks about worms at midnight and means it with their whole heart.`,
-    quote: "She asked about worms and accidentally caught everything.",
+    title: "A message on Discord, May 6th",
+    content: `Two people on opposite ends of the world — Dehradun in the foothills of the Himalayas, and Florida warm with its ocean air. They found each other on Discord and something just clicked. One message turned into hours. Hours turned into something neither of them had words for yet.`,
+    quote: "Different continents, different skies… yet somehow the same conversation felt like home.",
   },
   {
     number: "Chapter II",
-    title: "The Long Conversations",
-    content: `After that first evening, the conversations didn't stop. They stretched across time zones — Mann in Dehradun where evenings blur into night, Suna in Florida where the day still held light. They talked past the point of exhaustion, past the point where sleep made more sense, because leaving felt like a small loss neither wanted.
+    title: "The laughing, the chatters, every lil' moment",
+    content: `We were just getting to know each other
+spamming braincell counts, playing truth & dare,
+and laughing over the dumbest things.
 
-Suna wrote Mann a tiny love note sometime in that first week. Small letters on a screen. But Mann read them the way you read something you want to keep. He kept them.`,
+Somewhere in all that chaos,
+we started caring for each other…
+without even realizing it.`,
     quote: "Some conversations don't end. They just pause until morning.",
   },
   {
@@ -54,7 +56,6 @@ He woke up and told her. She said she wanted to try them. Someday they will make
     title: "New Year's, January 1, 2026",
     content: `They were still at it on New Year's Day. Long after it should have faded, long after the novelty wore off, long after the distances should have made things complicated. They were still talking. Still sending signals. Still choosing this — whatever this is — across 13,612 kilometers.
 
-Mann built this website for Suna. A place that holds all of it. The worm question, the Discord wedding, the 2:39 AM dream, the mornings. Everything.
 
 It is not finished. It will keep growing.`,
     quote: "Still being written. Still the best story.",
