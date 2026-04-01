@@ -12,20 +12,14 @@ const seed: Message[] = [
   {
     id: 1,
     sender: "Jenny / Suna",
-    text: "oiiii mann!! i just read the poem you wrote. i'm not crying you're crying 🥺",
-    time: "May 12, 2025 · 11:34 PM EDT",
+    text: "oiiii aiyamii!! 🥺",
+    time: "31st March, 2026 · 11:34 PM EDT",
   },
   {
     id: 2,
     sender: "Mann",
-    text: "I'm definitely not crying. I'm just... watering my eyes. Good morning from Dehradun. I thought of you before I thought of anything else.",
-    time: "May 13, 2025 · 9:02 AM IST",
-  },
-  {
-    id: 3,
-    sender: "Jenny / Suna",
-    text: "u thought of me first thing in the morning??? that's the most romantic thing i've ever heard and i'm going to think about it for 3 business days",
-    time: "May 13, 2025 · 12:05 AM EDT",
+    text: "Jennyyyyyy!! ",
+    time: "31st March, 2026 · 9:02 AM IST",
   },
 ];
 

@@ -172,7 +172,7 @@ export default function Home() {
               animation: "twinkle 2s ease-in-out infinite",
             }}
           />
-          <span>Suna is visiting your universe right now ♡</span>
+          <span>Suna is visiting universe right now ♡</span>
         </div>
       </div>
 
@@ -329,7 +329,7 @@ export default function Home() {
             textAlign: "left",
           }}
         >
-          "TThough hugs are pixels on a screen, they hold more warmth than some have seen."
+          "Though hugs are pixels on a screen, they hold more warmth than some have seen."
           <cite
             style={{
               display: "block",
