@@ -8,6 +8,8 @@ type TimelineEntry = {
   filled: boolean;
 };
 
+
+
 const entries: TimelineEntry[] = [
   {
     date: "May 6, 2025",
