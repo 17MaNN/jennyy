@@ -210,7 +210,7 @@ export default function Home() {
             lineHeight: 1.7,
           }}
         >
-          Built by Mann, for Suna — from Dehradun to Florida, 13,612 km apart.
+          13,612 km apart — and still the closest
         </p>
 
         {/* Clocks */}
@@ -329,8 +329,7 @@ export default function Home() {
             textAlign: "left",
           }}
         >
-          "Though hugs are pixels on a screen,<br />
-          they hold more warmth than some have seen."
+          "TThough hugs are pixels on a screen, they hold more warmth than some have seen."
           <cite
             style={{
               display: "block",
@@ -342,7 +341,6 @@ export default function Home() {
               marginTop: "8px",
             }}
           >
-            — Mann
           </cite>
         </blockquote>
       </section>
