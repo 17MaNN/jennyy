@@ -10,79 +10,79 @@ const mannLetters = [
       "But if you saw you through my eyes,",
       "You'd know you're the calm to all my whys...",
       "",
-      "I'd fall for that moment... when you said,"
-"Would you love me if I was a worm?" and I laughed instead...""
-"Not because it was silly,"
-"But 'cause even as a worm, you'd still be lit..."
+      "I'd fall for that moment... when you said,",
+"Would you love me if I was a worm?", "and I laughed instead...",
+"Not because it was silly,",
+"But 'cause even as a worm, you'd still be lit...",
 
-"I'd fall for the hugs sent in digital air,"
-"For how you care from way over there..."
-"You're far, but feel like home to me,"
-"Like Kuromi plushies and sweet movie scenes...""
+"I'd fall for the hugs sent in digital air,",
+"For how you care from way over there...",
+"You're far, but feel like home to me,",
+"Like Kuromi plushies and sweet movie scenes...",
 
-"I'd fall for your tears... the way you plead:"
-"In this marriage I better die first, indeed!!"
-"But no, Sunaa, love, let's just be,"
-"Grow old like vines on an old cherry tree...
+"I'd fall for your tears... the way you plead:",
+"In this marriage I better die first, indeed!!",
+"But no, Sunaa, love, let's just be,",
+"Grow old like vines on an old cherry ,tree...",
 
-"I'd fall for the way you remind me to rest,
-"For "be kind to yourself"...you mean it best...
-"When I rush through dreams and run on fumes,
-"You fill my hours with pastel blooms...
+"I'd fall for the way you remind me to rest,",
+"For ","be kind to yourself","...you mean it best...",
+"When I rush through dreams and run on fumes,",
+"You fill my hours with pastel blooms...",
 
-"So why would I fall? You ask again...
-"Because you're my warmth in all the rain...
-"Not one reason, Suna, not just a few...
-"But a million little moments that feel like you..."",
+"So why would I fall? You ask again...",
+"Because you're my warmth in all the rain...",
+"Not one reason, Suna, not just a few...",
+"But a million little moments that feel like you...",
     ],
   },
   {
     title: "For Suna From Far But Never Far",
     type: "poem",
     lines: [
-      "Across the miles where stars may play,"
-"You light my skies in softest way."
-"A whisper warm, a steady tune,"
-"My heart still hears you past the moon."
+      "Across the miles where stars may play,",
+"You light my skies in softest way.",
+"A whisper warm, a steady tune,",
+"My heart still hears you past the moon.",
 
-"You're made of kindness, soul, and spark,"
-"A gentle flame that warms the dark."
-"You lift me up when I feel small,"
-"With words that catch me when I fall."
+"You're made of kindness, soul, and spark,",
+"A gentle flame that warms the dark.",
+"You lift me up when I feel small,",
+"With words that catch me when I fall.",
 
-"Though hugs are pixels on a screen,"
-"They hold more warmth than some have seen."
-"You check on me with sweetest care,"
-"Like sending love through open air."
+"Though hugs are pixels on a screen,",
+"They hold more warmth than some have seen.",
+"You check on me with sweetest care,",
+"Like sending love through open air.",
 
-"So here's my thank-you, soft and true,"
-"For being kind in all you do."
-"This poem's a hug in quiet rhyme,"
-"From me to you, for all the time...",
+"So here's my thank-you, soft and true,",
+"For being kind in all you do.",
+"This poem's a hug in quiet rhyme,",
+"From me to you, for all the time...",,
     ],
   },
   {
     title: "If This is the Last Time...",
     type: "poem",
     lines: [
-      "It wasn't as though she was the only dream I had,"
-"but she was the one I never wanted to wake from."
-"The wind wove through the night like a quiet song,"
-"and she stood before me — half-moon eyes, trembling lips."
+      "It wasn't as though she was the only dream I had,",
+"but she was the one I never wanted to wake from.",
+"The wind wove through the night like a quiet song,",
+"and she stood before me — half-moon eyes, trembling lips.",
 
-"A strand of her hairs danced against her cheek,"
-"restless as a whispered wish on a starry night."
-"I lifted my hand to tuck it away,"
-"but when she looked up, time forgot to move."
+"A strand of her hairs danced against her cheek,",
+"restless as a whispered wish on a starry night." ,
+"I lifted my hand to tuck it away,",
+"but when she looked up, time forgot to move.",
 
-"For a moment, the universe rewrote itself —"
-"no past, no future, only us,"
-"standing in the quiet glow of something endless."
+"For a moment, the universe rewrote itself —",
+"no past, no future, only us,",
+"standing in the quiet glow of something endless.",
 
-"If this is the last time I'll hold her in my gaze,"
-"let it be carved into my dreams forever."
-"Where the wind will always carry her laughter,"
-"and the stars will keep the memory of her touch."
+"If this is the last time I'll hold her in my gaze,",
+"let it be carved into my dreams forever.",
+"Where the wind will always carry her laughter,",
+"and the stars will keep the memory of her touch.",
 
 "In This Dream, We Stay....,"
     ],
