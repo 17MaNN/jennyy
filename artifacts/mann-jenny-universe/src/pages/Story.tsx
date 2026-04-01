@@ -52,7 +52,7 @@ He woke up and told her. She said she wanted to try them. Someday they will make
     quote: "Some dreams are just early memories.",
   },
   {
-    number: "Epilogue",
+    number: "Chapter VII",
     title: "New Year's, January 1, 2026",
     content: `They were still at it on New Year's Day. Long after it should have faded, long after the novelty wore off, long after the distances should have made things complicated. They were still talking. Still sending signals. Still choosing this — whatever this is — across 13,612 kilometers.
 
@@ -60,7 +60,13 @@ He woke up and told her. She said she wanted to try them. Someday they will make
 It is not finished. It will keep growing.`,
     quote: "Still being written. Still the best story.",
   },
-];
+  {
+    number: "Chapter ∞",
+    title: "Still being written",
+    content: `This story has no ending. Every morning clock, every late night voice call, every recipe exchanged, every dream about cooking together — it's all still happening. Right now. Across 13,612 km of sky and sea.`,
+    quote: "No ending, just moments.. still happening, still ours..",
+  },
+]; 
 
 export default function Story() {
   useEffect(() => {
